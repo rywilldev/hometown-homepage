@@ -1,0 +1,22 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+GRAY BLUE: #455363
+DARK BLUE: #2B426E
+LIGHT GOLD: #DECB7E
+DARK GOLD/BRONZE: #947A3D
+*/
+
+body {
+    font-family: cup-and-talon;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background-image: url("images/stormwind.jpg");
+    height: 600px;
+}
