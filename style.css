@@ -63,8 +63,8 @@ h2 {
     color: #fff9de;
     text-shadow: 2px 2px black;
     padding-top: 40px;
-    border-top: 2px solid #fff9de;
-    border-bottom: 2px solid #fff9de;
+    border-top: 2px solid #947a3d;
+    border-bottom: 2px solid #947a3d;
 }
 
 /* ACTIVITY SECTION */
@@ -94,7 +94,7 @@ h2 {
     color: black;
     margin: 40px auto;
     padding: 10px;
-    border: 3px solid #dec87e;
+    border: 3px solid #947a3d;
     width: 500px;
     height: 200px;
 }
