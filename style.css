@@ -34,7 +34,7 @@ img {
     background: #2B426E;
     color: #dec87e;
     text-shadow: 3px 3px black;
-    border: 2px solid #dec87e;
+    border: 3px solid #fff9de;
     border-radius: 10px;
     margin-top: 100px;
     padding: 10px 20px;
@@ -44,7 +44,7 @@ img {
     background: #455363;
     color: #dec87e;
     text-shadow: 3px 3px black;
-    border: 1px solid #dec87e;
+    border: 2px solid #fff9de;
     border-radius: 10px;
     margin-top: 20px;
     padding: 10px 20px;
@@ -60,6 +60,8 @@ h2 {
     color: #fff9de;
     text-shadow: 2px 2px black;
     padding-top: 40px;
+    border-top: 2px solid #fff9de;
+    border-bottom: 2px solid #fff9de;
 }
 
 /* ACTIVITY SECTION */
