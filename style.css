@@ -2,21 +2,81 @@
 Palette: https://scrimba.com/links/hometown-palette
 GRAY BLUE: #455363
 DARK BLUE: #2B426E
+TAN: #fff9de
 LIGHT GOLD: #DECB7E
 DARK GOLD/BRONZE: #947A3D
 */
 
 body {
-    font-family: cup-and-talon;
+    font-family: 'MedievalSharp', cursive;
     margin: 0;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 img {
-    width: 100px;
+    width: 200px;
+    border-radius: 50%;;
 }
 
 .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
     background-image: url("images/stormwind.jpg");
-    height: 600px;
+    height: 500px;
+    margin: 0;
+    
 }
+
+#hero-title {
+    background: #2B426E;
+    color: #dec87e;
+    text-shadow: 3px 3px black;
+    border: 2px solid #dec87e;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 10px 20px;
+}
+
+#hero-caption {
+    background: #455363;
+    color: #dec87e;
+    text-shadow: 3px 3px black;
+    border: 1px solid #dec87e;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.container {
+    background: #455363;
+    color: #fff9de;
+    text-shadow: 2px 2px black;
+    padding-top: 40px;
+}
+
+/* ACTIVITY SECTION */
+
+#activity-title {
+    margin: 0;
+}
+
+.activity-main {
+    display: flex;
+    justify-content: center;
+}
+
+.activity-col {
+    width: 300px;
+    margin: 0 80px;
+    padding-top: 40px;
+}
+
+/* GUIDE SECTION */

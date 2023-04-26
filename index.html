@@ -4,35 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Hometown Homepage</title>
   </head>
   <body>
     <!-- HERO SECTION -->
     <div class="hero">
-      <h1>Visit Stormwind</h1>
-      <h2>
-        Enjoy culture and the knight life in the city that truly represents the courageous heart of humanity.
+      <div id="hero-title">
+        <h1>Visit Stormwind</h1>
+      </div>
+      <h2 id="hero-caption">
+        Enjoy culture and the knight life in the city that truly represents the
+        courageous heart of humanity.
       </h2>
     </div>
 
     <!-- ACTIVITIES SECTION -->
-    <div>
-      <h3>Top three activities to do at Torshov</h3>
-      <img src="images/park.jpg" />
-      <img src="images/theatre.jpg" />
-      <img src="images/sports.jpg" />
+    <div class="container">
+      <h3 id="activity-title">Top three activities to do in Stormwind</h3>
+      <!-- create div for each img and text to use flexbox -->
+      <div class="activity-main">
+        <div class="activity-col">
+          <img src="images/tavern.jpg" />
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, facere.</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, esse.</p>
+        </div>
+        <div class="activity-col">
+          <img src="images/tavern.jpg" />
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, maiores!</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, pariatur?</p>
+        </div>
+        <div class="activity-col">
+          <img src="images/tavern.jpg" />
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, sunt.</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, numquam!</p>
+        </div>
+      </div>
     </div>
 
     <!-- GUIDE SECTION -->
     <div>
       <h3>Your guide</h3>
-      <p>
-        "I have lived at Torshov for over 30 years, so I can show you all of its
-        best parts and hidden secrets."
+      <p id="guide-caption">
+        "I have been patrolling the streets of Stormwind since the inception of Azeroth in 2004."
       </p>
-      <h4>Per Harald Borgen</h4>
-      <img src="images/per.jpg" />
+      <h4>Stormwind Guard</h4>
+      <img src="images/guard.jpg" />
     </div>
   </body>
 </html>
