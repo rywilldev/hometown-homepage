@@ -6,6 +6,9 @@ TAN: #fff9de
 LIGHT GOLD: #DECB7E
 DARK GOLD/BRONZE: #947A3D
 */
+html {
+    margin: 0;
+}
 
 body {
     font-family: 'MedievalSharp', cursive;
@@ -16,7 +19,7 @@ body {
 
 img {
     width: 200px;
-    border-radius: 50%;;
+    border-radius: 50%;
 }
 
 .hero {
@@ -55,7 +58,7 @@ h2 {
     margin: 0;
 }
 
-.container {
+#activity-container {
     background: #455363;
     color: #fff9de;
     text-shadow: 2px 2px black;
@@ -82,3 +85,24 @@ h2 {
 }
 
 /* GUIDE SECTION */
+
+#guide-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #455363;
+    color: black;
+    margin: 40px auto;
+    padding: 10px;
+    border: 3px solid #dec87e;
+    width: 500px;
+    height: 200px;
+}
+
+#guide-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    color: #fff9de;
+    text-shadow: 3px 3px black;
+}
