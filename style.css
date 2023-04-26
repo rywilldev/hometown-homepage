@@ -76,7 +76,7 @@ h2 {
 .activity-col {
     width: 300px;
     margin: 0 80px;
-    padding-top: 40px;
+    padding: 40px 0 30px;
 }
 
 /* GUIDE SECTION */
